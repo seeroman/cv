@@ -1,0 +1,290 @@
+body{
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', cursive;
+
+
+}
+
+
+.top-container{
+  background-color: #E4F9F5;
+position: relative;
+height: 700px;
+
+
+}
+h3{
+  padding: 0 0 1em;
+  margin: 0;
+  font-size: 1.5em;
+  color: #45b29a;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+          font-weight: 500;
+          line-height: 1.1;
+
+}
+
+
+
+.roman{
+  margin: 0 auto;
+  padding-top: 100px;
+  font-family: 'Sacramento',sans-serif;
+  font-size: 50px;
+  top: 100px;
+}
+
+
+.land{
+  position: absolute;
+right:20%;
+top: 300px;
+height: 400px;
+size:50%;
+}
+
+
+
+.cloud-right{
+  position: absolute;
+  right: 100px;
+  top:25px;
+}
+
+.cloud-left{
+
+left: 4em;
+bottom: 25em;
+position: absolute;
+width: 150px;
+height: 45px;
+transition: all is ease-in-out;
+z-index: 980;
+
+}
+p{
+  font-family:'Montserrat' sans-serif;
+  font-size: 30px;
+
+}
+
+.image-bubble{
+  border-radius: 30%;
+
+}
+.image-break{
+  height: 6px;
+  border-color: grey;
+  border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;
+
+}
+
+.what_image-bubble{
+
+border-radius: 30%;
+position: absolute;
+top: 1410px;
+left: 750px;
+
+}
+.what_image_can{
+
+  position: absolute;
+  top: 1380px;
+  left: 500px;
+
+}
+.hi_info_can{
+  font-weight: 500;
+  line-height: 2;
+  color:grey;
+  font-size: 15px;
+  position: absolute;
+
+  left: 49%;
+}
+
+
+.hi{
+
+  text-align: center;
+  padding: .5em 0;
+  font-size: 2em;
+  color: #45b29a;
+
+}
+
+.develop_what{
+
+  border: 0;
+  right: 100px;
+  position: absolute;
+  top: 1580px;
+  left: -500px;
+
+}
+
+.what_image-break{
+
+  height: 6px;
+  border-color: grey;
+  border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;
+  display: inline-block;
+  position: absolute;
+  top: 1450px;
+  left: 650px;
+}
+.hi_info{
+  font-weight: 500;
+  line-height: 2;
+  color:grey;
+  font-size: 15px;
+}
+
+.desgin_what{
+
+  position: absolute;
+left: 49%;
+}
+
+.what_can{
+
+  color: #1e836c;
+    text-align: center;
+    font-size: 2.5em;
+
+    padding: .5em 0;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            font-weight: 500;
+            line-height: 1.1;
+}
+
+.hi_break{
+  height: 6px;
+  border-color: #B8B8B8;
+  border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;
+
+}
+.what_image{
+
+  left: 100px;
+  border: 0;
+  right: 100px;
+}
+
+.what_image_develop{
+
+
+  border: 0;
+  right: 100px;
+  position: absolute;
+  top: 1580px;
+  left: 1120px;
+
+}
+
+.hi_break_develop{
+  height: 6px;
+  border-color: grey;
+  border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;
+  position: absolute;
+  top: 1650px;
+  left: 1020px;
+
+}
+
+.hi_info_develop{
+  font-weight: 500;
+  line-height: 2;
+  color:grey;
+  font-size: 15px;
+  position: absolute;
+  left: 520px;
+  top:1600px;
+
+}
+
+.help{
+
+  color: #1e836c;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 400;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+}
+
+.btn{
+
+  background-color:#45b29a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.btn:hover{
+
+  background-color: #1b7f69;
+}
+
+.bottom-container{
+  background-color: #c5ded7;
+position: relative;
+height: 200px;
+}
+
+.footer-facebook{
+
+  text-align: center;
+  text-decoration: none;
+  color: #45b29a;
+  font-size: 1.5em;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  line-height: 1.42857143;
+  display: inline-block;
+  position: absolute;
+  bottom: 100px;
+  left: 830px;
+
+}
+
+.footer-twitter{
+  position: absolute;
+  bottom: 100px;
+  left: 1000px;
+  text-align: center;
+  text-decoration: none;
+  color: #45b29a;
+  font-size: 1.5em;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  line-height: 1.42857143;
+  display: inline-block;
+
+}
+
+.copyright{
+
+  text-align: center;
+      color: #45b29a;
+      font-size: 1em;
+      font-weight: 400;
+      margin: 0;
+      padding: 8em 0 0;
+      font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
